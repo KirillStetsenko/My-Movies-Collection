@@ -27,10 +27,11 @@ This project is a Vue.js application designed to help users manage their persona
 
 
 ## *WEBSITE DEMO*
-![Desktop version](https://github.com/user-attachments/assets/3ece11f3-32f1-49ea-a61c-8e99c862af25)
+![Desktop version](https://github.com/user-attachments/assets/0d06e61e-ea94-46d0-9555-dfc8e3c77071)
 
-![Tablet Version](https://github.com/user-attachments/assets/0df75d69-444f-4006-baa9-948dbac8905d)
+![Tablet Version](https://github.com/user-attachments/assets/8d7f3925-ac44-436b-a7f9-02a0a4978fba)
 
-![Mobile Version](https://github.com/user-attachments/assets/458d8868-c92e-46da-8d42-5a6417838e53)
+![Mobile Version](https://github.com/user-attachments/assets/08a45e8f-6bdb-4178-8d9c-cd8e06f1be53)
 
-![Mobile Version](https://github.com/user-attachments/assets/9544ba6e-64ad-4a6f-8c79-26e7990b65aa)
+![Mobile Version](https://github.com/user-attachments/assets/a67381d2-aa22-4e87-b0d1-414a9f24c0cd)
+
