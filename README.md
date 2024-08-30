@@ -6,10 +6,10 @@ This project is a Vue.js application designed to help users manage their persona
 
 ### Key Technologies
 
-Vue.js: Leveraged for building a reactive and component-based user interface.
-Vuex: Utilized for state management, ensuring smooth data flow across components.
-SCSS: Applied for styling, enabling better organization and maintainability of styles.
-TMDb API: Integrated for fetching and displaying real-time movie data.
+* Vue.js: Leveraged for building a reactive and component-based user interface.
+* Vuex: Utilized for state management, ensuring smooth data flow across components.
+* SCSS: Applied for styling, enabling better organization and maintainability of styles.
+* TMDb API: Integrated for fetching and displaying real-time movie data.
 
 ### *Features*:
 
@@ -25,13 +25,13 @@ TMDb API: Integrated for fetching and displaying real-time movie data.
 
 - All contributors are most welcome! This is definitely open source!
 
+
 ## *WEBSITE DEMO*
 
-!
-![Screenshot 1](https://github.com/user-attachments/assets/1b20ce7f-92f5-4722-86a3-e543caf9e3cc)
+![Desktop version](https://github.com/user-attachments/assets/3ece11f3-32f1-49ea-a61c-8e99c862af25)
 
-![Screenshot 2](https://github.com/user-attachments/assets/5f22d5e0-3e1c-4d09-95c4-00df7b545848)
+![Tablet Version](https://github.com/user-attachments/assets/0df75d69-444f-4006-baa9-948dbac8905d)
 
-![Screenshot 3](https://github.com/user-attachments/assets/489464c6-d171-4bc5-a674-d8305f8822a0)
+![Mobile Version](https://github.com/user-attachments/assets/458d8868-c92e-46da-8d42-5a6417838e53)
 
-![Screenshot 4](https://github.com/user-attachments/assets/5c41b6dd-6973-470d-86fc-8c05b6ff16b9)
+![Mobile Version](https://github.com/user-attachments/assets/9544ba6e-64ad-4a6f-8c79-26e7990b65aa)
