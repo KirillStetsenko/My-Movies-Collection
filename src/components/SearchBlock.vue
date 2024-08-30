@@ -13,7 +13,7 @@
       No results
     </div>
 
-    <div class="searchMovies">
+    <div v-show="$store.state.searchMovies.length" class="list">
       <movie-card
         v-for="movie in $store.state.searchMovies"
         :key="movie.id"
@@ -43,11 +43,23 @@ export default {
 
 <style lang="scss" scoped>
 .search {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
   .searchBlock {
     display: flex;
     justify-content: center;
-    padding: 20px;
-    text-align: center;
+    margin: 10px 10px 20px;
+    padding: 8px;
+    z-index: 1;
 
     .searchInput {
       max-width: 500px;
@@ -58,7 +70,6 @@ export default {
       font-size: 20px;
       border-radius: 10px 0 0 10px;
       color: white;
-
       &:focus-visible {
         outline: white;
       }
@@ -76,6 +87,20 @@ export default {
         border: 1px solid white;
         color: white;
       }
+    }
+  }
+
+  .list {
+    margin: 10px;
+    box-shadow: 0 0 5px 5px #006080;
+    border: 1px solid tomato;
+    padding: 10px;
+    overflow-y: auto;
+
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+      display: none;
     }
   }
 

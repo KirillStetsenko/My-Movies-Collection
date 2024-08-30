@@ -5,7 +5,7 @@
       <span class="counter">{{ movieCount }}</span>
     </div>
     <div class="sortBlock">
-      <span>Sort By: </span>
+      <span class="sortText">Sort By: </span>
       <select v-model="$store.state.sort">
         <option value="title">Title</option>
         <option value="year">Year</option>
@@ -31,14 +31,17 @@ export default {
 <style lang="scss" scoped>
 .topbar {
   display: flex;
-  padding: 0 10px;
+  padding: 10px;
   justify-content: space-between;
   align-items: center;
+  margin: 10px 10px 20px;
+  box-shadow: 0 0 5px 5px #006080;
+  border: 1px solid tomato;
 
   .title {
     margin: 10px;
     color: white;
-    font-size: 26px;
+    font-size: 20px;
   }
 
   .counter {
@@ -49,6 +52,10 @@ export default {
     display: flex;
     justify-content: space-between;
     gap: 10px;
+
+    .sortText {
+      font-size: 16px;
+    }
 
     select {
       width: 150px;
@@ -90,7 +97,7 @@ export default {
   }
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .topbar {
     text-align: center;
     flex-direction: column;

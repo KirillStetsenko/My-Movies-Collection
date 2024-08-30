@@ -38,7 +38,7 @@ export default {};
 
 .nav {
   display: flex;
-  margin: 10px auto;
+  margin: 10px;
   padding: 10px;
   justify-content: center;
   gap: 10px;

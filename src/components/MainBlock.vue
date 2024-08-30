@@ -7,11 +7,13 @@
         :sort="$store.state.sort"
         @toggleSortDirection="toggleSortDirection"
       />
-      <movie-card
-        v-for="movie in $store.getters.movies"
-        :key="movie.id"
-        :movie="movie"
-      />
+      <div class="movie-container">
+        <movie-card
+          v-for="movie in $store.getters.movies"
+          :key="movie.id"
+          :movie="movie"
+        />
+      </div>
     </div>
     <div v-else-if="$store.getters.tab === 2" class="category">
       <top-bar
@@ -20,11 +22,13 @@
         :sort="$store.state.sort"
         @toggleSortDirection="toggleSortDirection"
       />
-      <movie-card
-        v-for="movie in $store.getters.favourites"
-        :key="movie.id"
-        :movie="movie"
-      />
+      <div class="movie-container">
+        <movie-card
+          v-for="movie in $store.getters.favourites"
+          :key="movie.id"
+          :movie="movie"
+        />
+      </div>
     </div>
     <div v-else-if="$store.getters.tab === 3" class="category">
       <top-bar
@@ -33,11 +37,13 @@
         :sort="$store.state.sort"
         @toggleSortDirection="toggleSortDirection"
       />
-      <movie-card
-        v-for="movie in $store.getters.watched"
-        :key="movie.id"
-        :movie="movie"
-      />
+      <div class="movie-container">
+        <movie-card
+          v-for="movie in $store.getters.watched"
+          :key="movie.id"
+          :movie="movie"
+        />
+      </div>
     </div>
     <div v-else class="search">
       <search-block @addMovie="addMovie" />
@@ -95,7 +101,7 @@ export default {
   }
 }
 
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .main {
     width: 90%;
   }

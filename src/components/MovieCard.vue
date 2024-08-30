@@ -160,13 +160,9 @@ $primaryColor: #006880;
   }
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .movieCard {
     flex-direction: column;
-
-    .btnBlock {
-      justify-content: center;
-    }
   }
 }
 </style>

@@ -1,7 +1,9 @@
 <template>
   <header class="header">
     <img class="logo" src="../assets/logo.png" alt="logo" />
-    <div class="title">My <span class="spanText"> Movies </span> Collection</div>
+    <div class="title">
+      My <span class="spanText"> Movies </span> Collection
+    </div>
   </header>
 </template>
 
@@ -17,6 +19,12 @@ export default {};
   gap: 10px;
   margin: 10px;
   text-align: center;
+
+  &::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
 
   .logo {
     width: 120px;
